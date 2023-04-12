@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.explicacion-1{
+    display: flex;
+    margin-top: 240px;
+    flex-direction: column;
+    align-items: center;
+    font-size:15px;
+    color: #bbb0d6;
+    border-radius: 10px;
+    background: rgba(187,176,214,0.35);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    -webkit-box-shadow: 3px 3px 18px 7px #220e3a;
+    -moz-box-shadow: 3px 3px 18px 7px #220e3a;
+    box-shadow: 3px 3px 18px 7px #220e3a;
+    
+}
+
+#container-1{
+   /*  background: 
+    radial-gradient(calc(1.28*39px + 14.63px/2) at left 50% bottom calc(-.8*39px),#220e3a calc(100% - 14.63px),#8e7cbe calc(101% - 14.63px) 100%,#0000 101%) calc(2*39px) calc(-1*calc(1.5*39px + 14.63px)),
+    radial-gradient(calc(1.28*39px + 14.63px/2) at left 50% bottom calc(-.8*39px),#462b8b calc(100% - 14.63px),#8e7cbe calc(101% - 14.63px) 100%,#0000 101%) calc(-1*39px) calc(calc(1.5*39px + 14.63px)/-2),
+    radial-gradient(calc(1.28*39px + 14.63px/2) at left 50% top    calc(-.8*39px),#462b8b calc(100% - 14.63px),#8e7cbe calc(101% - 14.63px) 100%,#0000 101%) 0 calc(1.5*39px + 14.63px),
+    radial-gradient(calc(1.28*39px + 14.63px/2) at left 50% top    calc(-.8*39px),#220e3a calc(100% - 14.63px),#8e7cbe calc(101% - 14.63px) 100%,#0000 101%) 39px calc(calc(1.5*39px + 14.63px)/ 2),
+    linear-gradient(#220e3a 50%,#462b8b 0);
+background-size: calc(4*39px) calc(1.5*39px + 14.63px); */
+background:
+repeating-conic-gradient(from 30deg,#0000 0 120deg,#49396c 0 180deg) 
+78px 45.006px,
+repeating-conic-gradient(from 30deg,#220e39 0 60deg,#462b8b 0 120deg,#49396c 0 180deg);
+background-size: 156px 90px;
+
+
+}
+
+#banner{
+    height: 100vh;
+    background-image: url(/IMG/neon-bot-ck-1080x1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-right: 0px;
+    -webkit-box-shadow: -0.5px -1.5px 18.5px 32px #220e39;
+    -moz-box-shadow: -0.5px -1.5px 18.5px 32px #220e39;
+    box-shadow: -0.5px -1.5px 18.5px 32px #220e39;
+
+}
+
+.col-7{
+    margin-top: 50px;
+    padding-right: 0px;
+}
+
